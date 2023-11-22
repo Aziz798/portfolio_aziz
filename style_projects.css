@@ -1,0 +1,92 @@
+body{
+    background-color: #D8D2E1 !important;
+}
+.secondPage{
+    background-color: #D8D2E1;
+    width: 1900px;
+    height: 1000px;
+    margin: 0;
+}
+.nav-link{
+    margin-top: 17px;
+}
+.myProject{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.text {
+    margin-top: 50px;
+	text-transform: uppercase;
+	background: linear-gradient(to right, #6369D1 0%, #34435E 100%);
+	-webkit-background-clip : text;
+	-webkit-text-fill-color: transparent;
+
+}
+#carouselExampleCaptions{
+    height:750px ;
+    width: 930px;
+    margin-top:50px ;
+}
+img{
+    overflow: hidden;
+    height: 750px;
+    border-radius: 15px;
+}
+.projectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.side-navbar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #b9929f;
+    transition: 0.5s;
+    left: 0px;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #ffffff26;
+}
+
+
+
+.active-nav {
+    margin-left: 0;
+}
+#menu-btn {
+    background-color: #6369D1;
+    color: #fff;
+    position: fixed;
+    top: 12px;
+    transition: 0.5s;
+    left: 1px;
+    z-index: 5;
+
+}
+.active-cont {
+    margin-left: 250px;
+}
+.editnav{
+    height: 0;
+    margin: 0 !important;
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
